@@ -1,0 +1,83 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a.active {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  padding: 0 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav button {
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  cursor: pointer;
+}
+nav p {
+  background-color: lightgrey;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.forms label {
+  display: block;
+}
+
+.forms label span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forms form input {
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.forms form button {
+  align-self: flex-start;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  cursor: pointer;
+}
+a {
+  color: lightseagreen;
+}
